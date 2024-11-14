@@ -10,6 +10,4 @@ data class Prediction(
     val label: String,
     val score: Float,
     val timestamp: Long = System.currentTimeMillis()
-
-
 )
